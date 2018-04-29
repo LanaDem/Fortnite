@@ -1,0 +1,156 @@
+body {
+	background-color: #33382D;
+	/*overflow-y: hidden;*/
+
+
+}
+
+ul
+{ list-style-type: none 
+}
+
+
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+
+
+}
+
+#menu a {
+	color: white;
+	text-decoration:none;
+}
+#menu a:hover {color: #f1d437;}
+
+
+#menu {
+
+	display:inline-block;
+	font-family: Blippo, fantasy;
+	font-size: 60px; 
+	text-align: center;
+	color: white;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	position: relative;
+
+}
+
+#character {
+	width: 450px;
+	position: absolute;
+	left: 75%;
+	bottom: 5px
+
+}
+
+#menu2 {
+	display:inline-block;
+	font-family: Blippo, fantasy;
+	font-size: 50px; 
+	text-align: center;
+	color: white;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	position: relative;
+	margin-top: -2.5%;
+
+
+}
+
+#menu2 a {
+	color: white;
+	text-decoration:none;
+}
+#menu2 a:hover {color: #f1d437;}
+
+a:active {
+	top: 1px !important;
+}
+
+
+#about {
+	text-align: center;
+	font-size: 36px;
+	font-family: Blippo, fantasy; 
+	color: #f1d437;
+	margin-top: 4%;
+
+}
+
+#history {
+	font-size: 36px;
+	color: #f1d437;
+	text-align: center;
+	font-family: Blippo, fantasy; 
+}
+
+
+
+#artanddesign {
+	font-size: 36px;
+	color: #f1d437;
+	text-align: center;
+	font-family: Blippo, fantasy; 
+
+}
+.abouttext {
+	font-size: 18px;
+	color: white;
+	opacity: 0.85;
+	font-family: Arial, sans-serif;
+	text-align: left;
+}
+
+.suzenje-texta {
+	width: 90%;
+	margin: auto;
+}
+
+#pozadina-menu  ul {
+	background-color: rgba(255,255,255,0.2);
+	padding: 0 !important;
+}
+
+#pozadina-menu {
+
+}
+
+#okvir {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%
+}
+
+#okvir2 {
+	width: 20%;
+	float: left;
+}
+
+#okvir3 {
+	width: 20%;
+	position: absolute;
+	left: 40%
+}
+
+#okvir4 {
+	width: 20%;
+	float: right;
+}
+
+#okviri {
+	margin-top: 10%
+}
+
+/*#mrtvapozadina {
+background-image: url("lik.png");
+}*/
