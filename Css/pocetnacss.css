@@ -130,6 +130,13 @@ a:active {
 	width: 35%
 }
 
+
+#okviri {
+	margin-top: 10%
+
+
+}
+
 #okvir2 {
 	width: 20%;
 	float: left;
@@ -144,9 +151,34 @@ a:active {
 #okvir4 {
 	width: 20%;
 	float: right;
+	bottom: 20%
 }
 
-#okviri {
-	margin-top: 10%
+
+
+#season1 {
+	font-family: Blippo, fantasy; 
+	font-size: 60px;
+	color: #f1d437; 
+	position: absolute;
+	top: 115%;
+	left: 5%;
+}
+#season2 {
+	font-family: Blippo, fantasy; 
+	font-size: 60px;
+	color: #f1d437;
+	position: absolute;
+	top: 115%;
+	left: 45%;
+}
+#season3 {
+	font-family: Blippo, fantasy; 
+	font-size: 60px;
+	color: #f1d437;
+	position: relative;
+	right: 80%
+	top: 310%;
+	left: 84%;
 }
 
