@@ -130,14 +130,7 @@ a:active {
 	width: 35%
 }
 
-
-#okviri {
-	margin-top: 10%
-
-
-}
-
-#okvir2 {
+/*#okvir2 {
 	width: 20%;
 	float: left;
 }
@@ -152,10 +145,10 @@ a:active {
 	width: 20%;
 	float: right;
 	bottom: 20%
-}
+	}*/
 
 
-
+/*
 #season1 {
 	font-family: Blippo, fantasy; 
 	font-size: 60px;
@@ -181,4 +174,35 @@ a:active {
 	top: 310%;
 	left: 84%;
 }
+*/
+.krug{
+	float: left;
+	width: 30%;
+	display: inline;
+	padding: 10px;
 
+}
+
+.imgHolder{
+	margin: auto;
+}
+
+.text{
+
+}
+
+.grid-container {
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+.grid-item {
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.grid-item img{
+	width: 100%;
+}
