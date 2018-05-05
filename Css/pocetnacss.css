@@ -1,11 +1,9 @@
 body {
 	background-color: #33382D;
-
-
 }
 
-ul
-{ list-style-type: none 
+ul{
+	list-style-type: none 
 }
 
 /*css za index.html*/
@@ -15,30 +13,28 @@ ul
 	margin-left: auto;
 	margin-right: auto;
 	width: 450px;
-
-
 }
 
 #menu a {
 	color: white;
 	text-decoration:none;
 }
-#menu a:hover {color: #f1d437;}
+
+#menu a:hover{
+	color: #f1d437;
+}
 
 
 #menu {
-
 	display:inline-block;
 	font-family: Blippo, fantasy;
 	font-size: 60px; 
 	text-align: center;
 	color: white;
-
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
 	position: relative;
-
 }
 
 #menu2 {
@@ -47,14 +43,11 @@ ul
 	font-size: 50px; 
 	text-align: center;
 	color: white;
-
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
 	position: relative;
 	margin-top: -2.5%;
-
-
 }
 
 /*css za aout.html*/
@@ -68,9 +61,10 @@ ul
 	color: white;
 	text-decoration:none;
 }
-#menu2
 
-a:hover {color: #f1d437;}
+#menu2 a:hover {
+	color: #f1d437;
+}
 
 .suzenje-texta {
 	width: 90%;
@@ -83,7 +77,6 @@ a:hover {color: #f1d437;}
 	font-family: Blippo, fantasy; 
 	color: #f1d437;
 	margin-top: 4%;
-
 }
 
 .abouttext {
@@ -126,11 +119,13 @@ a:hover {color: #f1d437;}
 	display: table;
 	padding: 0 0 8em 0;
 }
+
 .tabela td, .tabela th {
 	padding-bottom: 2%;
 	padding-top: 2%;
 	padding-left:2%;  
 }
+
 .tabela tr:nth-child(odd) {
 	background-color: #53594c;
 }
@@ -138,14 +133,18 @@ a:hover {color: #f1d437;}
 .tabela tr:nth-child(even) {
 	background-color: #5c6353;
 }
+
 .tabela th {
 	background-color: #5c6353;
 }
+
 .tabela td:first-child { color: #f1d437; }
 
 /*css za contactform.html*/
 
-form {font-family: Arial, Helvetica, sans-serif;}
+form {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 input[type=text], select, textarea {
 	width: 100%;
@@ -172,7 +171,6 @@ input[type=submit]:hover {
 }
 
 label {
-
 	font-size: 18px;
 }
 
@@ -183,6 +181,7 @@ label {
 	background-color: #f2f2f2;
 	padding: 70px;
 }
+
 #naslovforme {
 	text-align: center;
 	margin-top: -5%;
