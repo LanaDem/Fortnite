@@ -8,7 +8,7 @@ ul
 { list-style-type: none 
 }
 
-
+/*css za index.html*/
 
 #logo {
 	display: block;
@@ -41,14 +41,6 @@ ul
 
 }
 
-#character {
-	width: 450px;
-	position: absolute;
-	left: 75%;
-	bottom: 5px
-
-}
-
 #menu2 {
 	display:inline-block;
 	font-family: Blippo, fantasy;
@@ -65,16 +57,25 @@ ul
 
 }
 
+/*css za aout.html*/
+
+#pozadina-menu  ul {
+	background-color: rgba(255,255,255,0.2);
+	padding: 0 !important;
+}
+
 #menu2 a {
 	color: white;
 	text-decoration:none;
 }
-#menu2 a:hover {color: #f1d437;}
+#menu2
 
-a:active {
-	top: 1px !important;
+a:hover {color: #f1d437;}
+
+.suzenje-texta {
+	width: 90%;
+	margin: auto;
 }
-
 
 #about {
 	text-align: center;
@@ -85,22 +86,6 @@ a:active {
 
 }
 
-#history {
-	font-size: 36px;
-	color: #f1d437;
-	text-align: center;
-	font-family: Blippo, fantasy; 
-}
-
-
-
-#artanddesign {
-	font-size: 36px;
-	color: #f1d437;
-	text-align: center;
-	font-family: Blippo, fantasy; 
-
-}
 .abouttext {
 	font-size: 18px;
 	color: white;
@@ -109,76 +94,97 @@ a:active {
 	text-align: left;
 }
 
-.suzenje-texta {
-	width: 90%;
+#history {
+	font-size: 36px;
+	color: #f1d437;
+	text-align: center;
+	font-family: Blippo, fantasy; 
+}
+
+#artanddesign {
+	font-size: 36px;
+	color: #f1d437;
+	text-align: center;
+	font-family: Blippo, fantasy; 
+
+}
+
+/*css za leaderboards.html*/
+
+.tabela td {
+	font-weight: normal;
+	font-size: 1em;
+	-webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	-moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
+}
+.tabela {
+	text-align: left;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+	padding: 0 0 8em 0;
+}
+.tabela td, .tabela th {
+	padding-bottom: 2%;
+	padding-top: 2%;
+	padding-left:2%;  
+}
+.tabela tr:nth-child(odd) {
+	background-color: #53594c;
+}
+
+.tabela tr:nth-child(even) {
+	background-color: #5c6353;
+}
+.tabela th {
+	background-color: #5c6353;
+}
+.tabela td:first-child { color: #f1d437; }
+
+/*css za contactform.html*/
+
+form {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+input[type=submit] {
+	background-color: #414739;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type=submit]:hover {
+	background-color: #f1d437;
+}
+
+label {
+
+	font-size: 18px;
+}
+
+#contact { 
+	width: 50%;
 	margin: auto;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 70px;
 }
-
-#pozadina-menu  ul {
-	background-color: rgba(255,255,255,0.2);
-	padding: 0 !important;
+#naslovforme {
+	text-align: center;
+	margin-top: -5%;
+	font-size: 36px;
 }
-
-#pozadina-menu {
-
-}
-
-#okvir {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 35%
-}
-
-
-#okviri {
-	margin-top: 10%
-
-
-}
-
-#okvir2 {
-	width: 20%;
-	float: left;
-}
-
-#okvir3 {
-	width: 20%;
-	position: absolute;
-	left: 40%
-}
-
-#okvir4 {
-	width: 20%;
-	float: right;
-	bottom: 20%
-}
-
-
-
-#season1 {
-	font-family: Blippo, fantasy; 
-	font-size: 60px;
-	color: #f1d437; 
-	position: absolute;
-	top: 115%;
-	left: 5%;
-}
-#season2 {
-	font-family: Blippo, fantasy; 
-	font-size: 60px;
-	color: #f1d437;
-	position: absolute;
-	top: 115%;
-	left: 45%;
-}
-#season3 {
-	font-family: Blippo, fantasy; 
-	font-size: 60px;
-	color: #f1d437;
-	position: relative;
-	right: 80%
-	top: 310%;
-	left: 84%;
-}
-
